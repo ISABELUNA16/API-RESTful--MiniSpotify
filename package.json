@@ -1,0 +1,25 @@
+{
+  "name": "curso-mean2",
+  "version": "1.0.0",
+  "description": "royecto de API REST con NodeJS",
+  "main": "index.js",
+  "scripts": {
+  	"start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rosmery Isabel Luna Tito",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.4",
+    "mongoose": "^4.13.6",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
